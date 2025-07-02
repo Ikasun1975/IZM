@@ -8,6 +8,7 @@ const Header = () => {
 
     return(
         <nav className="navbar">
+            <h1>Izmjena</h1>
 		
             <form className="container-fluid justify-content-start">
                 <div className="order-2 text-center">
