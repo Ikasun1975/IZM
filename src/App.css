@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 21px;
+	color: #222021;
+	font-weight: 300;
+	
+}
+
+img{
+	max-width: 100%;
+}
+
+
+.navbar {
+	padding: 20px;
+	
+}
+	
+.navbar a:not(.logo):hover{
+	transform: scale(1,2);
+}
+
+.navbar a{
+	transition: all 200ms linear;
+}
+.navbar img{
+	width: 120px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Libre Baskerville", serif;
+	
+}
+
+.naslovna{
+	/*background-image: url(img/naslovna1.jpg);*/
+	height: 900px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	color: white;
+}
+
+.naslovna h1{
+	font-size: 90px;
+	text-shadow: 3px 0 3px black;
+}
+
+
+.intro{
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.intro h2{
+	margin-bottom: 50px;
+}
+
+.videogalerija img, .fotogalerija img{
+	width: 100%;
+}
+
+.videogalerija .col-md-6, .fotogalerija .col-md-6{
+	padding: 0;
+}
+
+.videogalerija .row, .fotogalerija .row{
+	align-items: center;
+	text-align: center;
+}
+
+.videogalerija h1{
+	text-shadow: 1px 6px 6px black;
+}
+
+.fotogalerija h1{
+	text-shadow: 1px 6px 6px black;
+}
+	
+
+.naslovnafoto{
+	/*background-image: url(/img/foto.jpg);*/
+	height: 600px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	color: white;
+	
+}*/
+
+.naslovnafoto h1{
+	font-size: 100px;
+	text-shadow: 3px 0 3px black;
+}
+
+.naslovnafoto p{
+	text-shadow: 3px 0 3px black;
+}
+
+.naslovnavideo{
+	/*background-image: url(img/img10.jpg);*/
+	height: 600px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	color: white;
+	
+}*/
+
+.naslovnavideo h1{
+	font-size: 100px;
+	text-shadow: 3px 0 3px black;
+}
+
+.naslovnavideo p{
+	text-shadow: 3px 0 3px black;
+}
+
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-auto-rows: minmax(200px, auto);
+      gap: 15px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 12px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      font-size: 0.85em;
+    }
+
+    .caption small {
+      display: block;
+      opacity: 0.7;
+      margin-top: 4px;
+    }
+		
+
+.naslovnablog{
+	/*background-image: url(img/blogfoto.jpg);*/
+	height: 600px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	color: white;
+}
+
+.naslovnablog h1{
+	font-size: 100px;
+	text-shadow: 3px 0 3px black;
+}
+	
+.naslovnakontakt{
+	/*background-image: url(img/kontaktfoto.jpg);*/
+	height: 600px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	color: white;
+}
+
+.naslovnakontakt h1{
+	font-size: 100px;
+	text-shadow: 3px 0 3px black;
+}
+
+.naslovnakontakt p{
+	text-shadow: 3px 0 3px black;
+}
+
+.kontaktpodaci p{
+	font-size: 30px;
+	height: 500px;
+	align-items: center;
+	text-align: center;
+	display: flex;
+}
+
+.kontakt form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],input[type="email"],textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+footer{
+	text-align:center;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+footer p{
+	font-size: 14px;
+}
+
+.slick-prev:before, .slick-next:before{
+	color: black;
+	font-size: 25px;
+}
+.slick-prev, .slick-next{
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+}
+
+.your-class{
+	text-align:center;
+	margin: 20px;
+	padding: 50px;
+}
+
+
+.social a {
+	color: #21243D;
+	font-size: 30px;
+	margin: 0 10px;
+	transition: all 300ms linear;
+	display: inline-block;
+}
+
+ 
+
+.social a:hover {
+	transform: scale(2);
+}
+
+.blog-img img {
+
+    height: 240px;
+
+    object-fit: cover;
+
+    width: 100%;
+
+}
+
+.blog-img {
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    background-size: contain;
+
+    background-position: center;
+
+}
+
+.blog-card h1 {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    color: #333;
+
+    min-height: 80px;
+
+    margin-bottom: 40px;
+
+}
+
+.img-high img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
