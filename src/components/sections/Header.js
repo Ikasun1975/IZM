@@ -8,8 +8,7 @@ const Header = () => {
 
     return(
         <nav className="navbar">
-            <h1>Izmjena</h1>
-		
+           
             <form className="container-fluid justify-content-start">
                 <div className="order-2 text-center">
                     
@@ -19,7 +18,7 @@ const Header = () => {
                 <Link to="/blog" ><button className="btn" type="button">BLOG</button></Link>
                 <Link to="/kontakt" ><button className="btn" type="button">KONTAKT</button></Link>
                 </div>	
-                <a className="ms-auto me-auto logo order-md-2 me-md-0"> <img src="img/astalogo.png"/> </a>
+                <a href="/" className="ms-auto me-auto logo order-md-2 me-md-0"> <img alt="Logo" src="img/astalogo.png"/> </a>
             
             </form>	
 		

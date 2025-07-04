@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .naslovna{
-	/*background-image: url(img/naslovna1.jpg);*/
+	background-image: url("img/naslovna1.jpg");
 	height: 900px;
 	align-items: center;
 	text-align: center;
@@ -78,7 +78,10 @@ h1,h2,h3,h4,h5,h6{
 .fotogalerija h1{
 	text-shadow: 1px 6px 6px black;
 }
-	
+.fotogalerija a{
+	color: black;
+	text-decoration: none;
+}
 
 .naslovnafoto{
 	/*background-image: url(/img/foto.jpg);*/
@@ -88,7 +91,7 @@ h1,h2,h3,h4,h5,h6{
 	display: flex;
 	color: white;
 	
-}*/
+}
 
 .naslovnafoto h1{
 	font-size: 100px;
@@ -107,7 +110,7 @@ h1,h2,h3,h4,h5,h6{
 	display: flex;
 	color: white;
 	
-}*/
+}
 
 .naslovnavideo h1{
 	font-size: 100px;
@@ -273,7 +276,7 @@ footer p{
 }
 
 
-.social a {
+.social svg {
 	color: #21243D;
 	font-size: 30px;
 	margin: 0 10px;
@@ -283,7 +286,7 @@ footer p{
 
  
 
-.social a:hover {
+.social svg:hover {
 	transform: scale(2);
 }
 

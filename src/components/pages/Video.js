@@ -46,11 +46,14 @@ const Video = () => {
 
     return(
 
-        
+        <div className="container">
+            
 
     
 
         <div dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
+
+        </div>
        
 
     );

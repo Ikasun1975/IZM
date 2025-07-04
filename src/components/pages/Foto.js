@@ -48,9 +48,8 @@ const Foto = () => {
 
         <div className="container">
 
-    
-
         <div dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
+        
         </div>
 
     );
